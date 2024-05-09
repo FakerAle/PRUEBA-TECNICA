@@ -1,0 +1,15 @@
+
+_
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8»®´õ1
+O
+java:S3416 "2Update this logger to use "SalesController.class".(ôÃŠõ8¼®´õ1
+O
+java:S6863."2Set a HttpStatus code reflective of the operation.(Ü¯Ïú8¼®´õ1
+O
+java:S68630"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8¼®´õ1
+O
+java:S6863F"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8¼®´õ1
+H
+java:S1452'"&Remove usage of generic wildcard type.(û½¯ıÿÿÿÿ8¾®´õ1
+H
+java:S1452?"&Remove usage of generic wildcard type.(¡öıçüÿÿÿÿ8À®´õ1

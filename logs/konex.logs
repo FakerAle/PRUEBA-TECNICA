@@ -1,0 +1,127 @@
+2024-05-08 00:00:27.751  INFO 33860 --- [http-nio-9091-exec-2] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-08 00:00:57.106  INFO 33860 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 00:00:57.107  INFO 33860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08 00:00:57.108  INFO 33860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08 00:01:02.266  INFO 33176 --- [main] com.test.cliente.FarmaciaApplication     : Starting FarmaciaApplication using Java 17.0.10 on DESKTOP-A7AI40Q with PID 33176 (C:\ProyectoTecnicoSprint\PruebaDosKonex\konex-innovation-api\target\classes started by riosg in C:\ProyectoTecnicoSprint\PruebaDosKonex\konex-innovation-api)
+2024-05-08 00:01:02.269  INFO 33176 --- [main] com.test.cliente.FarmaciaApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-08 00:01:02.670  INFO 33176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08 00:01:02.711  INFO 33176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-05-08 00:01:02.936  INFO 33176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d0e49bf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-08 00:01:02.967  INFO 33176 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-05-08 00:01:03.168  INFO 33176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2024-05-08 00:01:03.174  INFO 33176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-08 00:01:03.175  INFO 33176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-05-08 00:01:03.264  INFO 33176 --- [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2024-05-08 00:01:03.265  INFO 33176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2024-05-08 00:01:03.436  INFO 33176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08 00:01:03.470  INFO 33176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2024-05-08 00:01:03.574  INFO 33176 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-08 00:01:03.650  INFO 33176 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-05-08 00:01:04.054  INFO 33176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08 00:01:04.164  INFO 33176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08 00:01:04.214  INFO 33176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-08 00:01:04.220  INFO 33176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 00:01:04.535  WARN 33176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-08 00:01:04.645  WARN 33176 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1cb349c9-c2a1-4e58-8587-3c7025e7efd1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-08 00:01:04.718  INFO 33176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b29d699, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c04ddda, org.springframework.security.web.header.HeaderWriterFilter@1a06b95, org.springframework.security.web.authentication.logout.LogoutFilter@5655278d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f5bfbca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@600e2000, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a5a973c, org.springframework.security.web.session.SessionManagementFilter@790f4933, org.springframework.security.web.access.ExceptionTranslationFilter@3c34c491]
+2024-05-08 00:01:05.280  INFO 33176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path '/api/v1'
+2024-05-08 00:01:05.287  INFO 33176 --- [main] com.test.cliente.FarmaciaApplication     : Started FarmaciaApplication in 3.26 seconds (JVM running for 3.76)
+2024-05-08 00:01:30.801  INFO 33176 --- [http-nio-9091-exec-3] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-08 00:10:05.308  INFO 33176 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 00:10:05.310  INFO 33176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08 00:10:05.312  INFO 33176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08 00:11:34.657  INFO 34356 --- [main] com.test.cliente.FarmaciaApplication     : Starting FarmaciaApplication using Java 17.0.10 on DESKTOP-A7AI40Q with PID 34356 (C:\ProyectoTecnicoSprint\PruebaDosKonex\konex-innovation-api\target\classes started by riosg in C:\ProyectoTecnicoSprint\PruebaDosKonex\konex-innovation-api)
+2024-05-08 00:11:34.658  INFO 34356 --- [main] com.test.cliente.FarmaciaApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-08 00:11:35.019  INFO 34356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08 00:11:35.057  INFO 34356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-05-08 00:11:35.263  INFO 34356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7c407e66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-08 00:11:35.289  INFO 34356 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-05-08 00:11:35.450  INFO 34356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2024-05-08 00:11:35.456  INFO 34356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-08 00:11:35.457  INFO 34356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-05-08 00:11:35.562  INFO 34356 --- [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2024-05-08 00:11:35.562  INFO 34356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 879 ms
+2024-05-08 00:11:35.706  INFO 34356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08 00:11:35.736  INFO 34356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2024-05-08 00:11:35.831  INFO 34356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-08 00:11:35.901  INFO 34356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-05-08 00:11:36.269  INFO 34356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08 00:11:36.374  INFO 34356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08 00:11:36.426  INFO 34356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-08 00:11:36.431  INFO 34356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 00:11:36.709  WARN 34356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-08 00:11:36.807  WARN 34356 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 602b5381-c26a-4dc4-a3c6-331c99c01fc0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-08 00:11:36.866  INFO 34356 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2148b47e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fcf73b9, org.springframework.security.web.header.HeaderWriterFilter@5c194652, org.springframework.security.web.authentication.logout.LogoutFilter@33bf2602, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c65fa69, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75d402d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@410f1452, org.springframework.security.web.session.SessionManagementFilter@cae4952, org.springframework.security.web.access.ExceptionTranslationFilter@611a91df]
+2024-05-08 00:11:37.338  INFO 34356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path '/api/v1'
+2024-05-08 00:11:37.345  INFO 34356 --- [main] com.test.cliente.FarmaciaApplication     : Started FarmaciaApplication in 2.912 seconds (JVM running for 3.298)
+2024-05-08 00:11:42.924  INFO 34356 --- [http-nio-9091-exec-3] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-08 00:11:42.964 DEBUG 34356 --- [http-nio-9091-exec-3] org.hibernate.SQL                        : select ventas0_.codigo as codigo1_1_, ventas0_.cantidad as cantidad2_1_, ventas0_.fecha_venta as fecha_ve3_1_, ventas0_.fk_medicamento_id as fk_medic6_1_, ventas0_.valor_total as valor_to4_1_, ventas0_.valor_unitario as valor_un5_1_ from farmacia_esquema.ventas ventas0_ where ventas0_.fecha_venta between ? and ?
+2024-05-08 00:11:42.966 TRACE 34356 --- [http-nio-9091-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2023-11-15T09:00]
+2024-05-08 00:11:42.966 TRACE 34356 --- [http-nio-9091-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2023-11-15T17:00]
+2024-05-08 00:11:42.990 DEBUG 34356 --- [http-nio-9091-exec-3] org.hibernate.SQL                        : select medicament0_.id_medicamento as id_medic1_0_0_, medicament0_.cantidad_producto as cantidad2_0_0_, medicament0_.fecha_fabricacion as fecha_fa3_0_0_, medicament0_.fecha_vencimiento as fecha_ve4_0_0_, medicament0_.nombre_fabrica as nombre_f5_0_0_, medicament0_.nombre_medicamento as nombre_m6_0_0_, medicament0_.valor_unitario as valor_un7_0_0_ from farmacia_esquema.medicamento medicament0_ where medicament0_.id_medicamento=?
+2024-05-08 00:11:42.991 TRACE 34356 --- [http-nio-9091-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2024-05-08 00:12:06.097 DEBUG 34356 --- [http-nio-9091-exec-2] org.hibernate.SQL                        : select ventas0_.codigo as codigo1_1_, ventas0_.cantidad as cantidad2_1_, ventas0_.fecha_venta as fecha_ve3_1_, ventas0_.fk_medicamento_id as fk_medic6_1_, ventas0_.valor_total as valor_to4_1_, ventas0_.valor_unitario as valor_un5_1_ from farmacia_esquema.ventas ventas0_ where ventas0_.fecha_venta between ? and ?
+2024-05-08 00:12:06.098 TRACE 34356 --- [http-nio-9091-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2023-11-14T09:00]
+2024-05-08 00:12:06.098 TRACE 34356 --- [http-nio-9091-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2023-11-15T17:00]
+2024-05-08 00:12:06.099 DEBUG 34356 --- [http-nio-9091-exec-2] org.hibernate.SQL                        : select medicament0_.id_medicamento as id_medic1_0_0_, medicament0_.cantidad_producto as cantidad2_0_0_, medicament0_.fecha_fabricacion as fecha_fa3_0_0_, medicament0_.fecha_vencimiento as fecha_ve4_0_0_, medicament0_.nombre_fabrica as nombre_f5_0_0_, medicament0_.nombre_medicamento as nombre_m6_0_0_, medicament0_.valor_unitario as valor_un7_0_0_ from farmacia_esquema.medicamento medicament0_ where medicament0_.id_medicamento=?
+2024-05-08 00:12:06.099 TRACE 34356 --- [http-nio-9091-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2024-05-08 00:12:18.492 DEBUG 34356 --- [http-nio-9091-exec-4] org.hibernate.SQL                        : select ventas0_.codigo as codigo1_1_, ventas0_.cantidad as cantidad2_1_, ventas0_.fecha_venta as fecha_ve3_1_, ventas0_.fk_medicamento_id as fk_medic6_1_, ventas0_.valor_total as valor_to4_1_, ventas0_.valor_unitario as valor_un5_1_ from farmacia_esquema.ventas ventas0_ where ventas0_.fecha_venta between ? and ?
+2024-05-08 00:12:18.493 TRACE 34356 --- [http-nio-9091-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2023-11-14T09:00]
+2024-05-08 00:12:18.493 TRACE 34356 --- [http-nio-9091-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2023-11-14T17:00]
+2024-05-08 00:14:02.137  INFO 34356 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 00:14:02.138  INFO 34356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08 00:14:02.140  INFO 34356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08 00:55:26.957  INFO 35348 --- [main] com.test.cliente.FarmaciaApplication     : Starting FarmaciaApplication using Java 17.0.10 on DESKTOP-A7AI40Q with PID 35348 (C:\ProyectoTecnicoSprint\PruebaDosKonex\konex-innovation-api\target\classes started by riosg in C:\ProyectoTecnicoSprint\PruebaDosKonex\konex-innovation-api)
+2024-05-08 00:55:26.959  INFO 35348 --- [main] com.test.cliente.FarmaciaApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-08 00:55:27.367  INFO 35348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08 00:55:27.407  INFO 35348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-05-08 00:55:27.657  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de301fdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-05-08 00:55:27.686  INFO 35348 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-05-08 00:55:27.869  INFO 35348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2024-05-08 00:55:27.875  INFO 35348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-08 00:55:27.875  INFO 35348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-05-08 00:55:27.971  INFO 35348 --- [main] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2024-05-08 00:55:27.971  INFO 35348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2024-05-08 00:55:28.133  INFO 35348 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08 00:55:28.164  INFO 35348 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2024-05-08 00:55:28.259  INFO 35348 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-08 00:55:28.325  INFO 35348 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-05-08 00:55:28.706  INFO 35348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08 00:55:28.822  INFO 35348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08 00:55:28.871  INFO 35348 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-08 00:55:28.877  INFO 35348 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 00:55:29.167  WARN 35348 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-08 00:55:29.268  WARN 35348 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c11800e2-5760-45a2-9012-31e24c7869d6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-08 00:55:29.325  INFO 35348 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31aa9b01, org.springframework.security.web.context.SecurityContextPersistenceFilter@61555218, org.springframework.security.web.header.HeaderWriterFilter@15651402, org.springframework.security.web.authentication.logout.LogoutFilter@7bb86ac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17ebbf1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f235a0a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2148b47e, org.springframework.security.web.session.SessionManagementFilter@4c8afba, org.springframework.security.web.access.ExceptionTranslationFilter@5b76b891]
+2024-05-08 00:55:29.795  INFO 35348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path '/api/v1'
+2024-05-08 00:55:29.801  INFO 35348 --- [main] com.test.cliente.FarmaciaApplication     : Started FarmaciaApplication in 3.071 seconds (JVM running for 3.476)
+2024-05-08 01:11:00.272  INFO 35348 --- [http-nio-9091-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-08 01:11:39.801 DEBUG 35348 --- [http-nio-9091-exec-5] org.hibernate.SQL                        : select ventas0_.codigo as codigo1_1_, ventas0_.cantidad as cantidad2_1_, ventas0_.fecha_venta as fecha_ve3_1_, ventas0_.fk_medicamento_id as fk_medic6_1_, ventas0_.valor_total as valor_to4_1_, ventas0_.valor_unitario as valor_un5_1_ from farmacia_esquema.ventas ventas0_ where ventas0_.fecha_venta between ? and ?
+2024-05-08 01:11:39.803 TRACE 35348 --- [http-nio-9091-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2023-11-10T09:00]
+2024-05-08 01:11:39.804 TRACE 35348 --- [http-nio-9091-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2023-11-16T17:00]
+2024-05-08 01:11:39.816 DEBUG 35348 --- [http-nio-9091-exec-5] org.hibernate.SQL                        : select medicament0_.id_medicamento as id_medic1_0_0_, medicament0_.cantidad_producto as cantidad2_0_0_, medicament0_.fecha_fabricacion as fecha_fa3_0_0_, medicament0_.fecha_vencimiento as fecha_ve4_0_0_, medicament0_.nombre_fabrica as nombre_f5_0_0_, medicament0_.nombre_medicamento as nombre_m6_0_0_, medicament0_.valor_unitario as valor_un7_0_0_ from farmacia_esquema.medicamento medicament0_ where medicament0_.id_medicamento=?
+2024-05-08 01:11:39.817 TRACE 35348 --- [http-nio-9091-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2024-05-08 01:14:46.320 DEBUG 35348 --- [http-nio-9091-exec-8] org.hibernate.SQL                        : select medicament0_.id_medicamento as id_medic1_0_0_, medicament0_.cantidad_producto as cantidad2_0_0_, medicament0_.fecha_fabricacion as fecha_fa3_0_0_, medicament0_.fecha_vencimiento as fecha_ve4_0_0_, medicament0_.nombre_fabrica as nombre_f5_0_0_, medicament0_.nombre_medicamento as nombre_m6_0_0_, medicament0_.valor_unitario as valor_un7_0_0_ from farmacia_esquema.medicamento medicament0_ where medicament0_.id_medicamento=?
+2024-05-08 01:14:46.320 TRACE 35348 --- [http-nio-9091-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2024-05-08 01:15:13.665 DEBUG 35348 --- [http-nio-9091-exec-10] org.hibernate.SQL                        : select medicament0_.id_medicamento as id_medic1_0_0_, medicament0_.cantidad_producto as cantidad2_0_0_, medicament0_.fecha_fabricacion as fecha_fa3_0_0_, medicament0_.fecha_vencimiento as fecha_ve4_0_0_, medicament0_.nombre_fabrica as nombre_f5_0_0_, medicament0_.nombre_medicamento as nombre_m6_0_0_, medicament0_.valor_unitario as valor_un7_0_0_ from farmacia_esquema.medicamento medicament0_ where medicament0_.id_medicamento=?
+2024-05-08 01:15:13.665 TRACE 35348 --- [http-nio-9091-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2024-05-08 09:07:00.695  WARN 35348 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h43m1s399ms625µs900ns).
+2024-05-08 20:36:02.547  WARN 35348 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h25m24s396ms384µs200ns).
+2024-05-08 22:03:18.799  INFO 35348 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08 22:03:18.808  INFO 35348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08 22:03:18.812  INFO 35348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

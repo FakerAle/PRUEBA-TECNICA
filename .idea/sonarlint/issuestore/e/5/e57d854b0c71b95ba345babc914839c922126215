@@ -1,0 +1,29 @@
+
+_
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8Æ–Ó¯õ1
+O
+java:S6863-"2Set a HttpStatus code reflective of the operation.(Ü¯Ïú8Ç–Ó¯õ1
+O
+java:S6863/"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8Ç–Ó¯õ1
+O
+java:S6863F"2Set a HttpStatus code reflective of the operation.(Ü¯Ïú8Ç–Ó¯õ1
+O
+java:S6863H"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8Ç–Ó¯õ1
+O
+java:S6863J"2Set a HttpStatus code reflective of the operation.(¥Œ÷¬8Ç–Ó¯õ1
+O
+java:S6863^"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8Ç–Ó¯õ1
+O
+java:S6863r"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8‚ÈÈ°õ1
+P
+java:S6863†"2Set a HttpStatus code reflective of the operation.(¬ßÌÒ8à¼«±õ1
+H
+java:S1452&"&Remove usage of generic wildcard type.(²şöïüÿÿÿÿ8Ê–Ó¯õ1
+H
+java:S1452>"&Remove usage of generic wildcard type.(ªõĞùÿÿÿÿ8Ì–Ó¯õ1
+H
+java:S1452W"&Remove usage of generic wildcard type.(ú¬«…üÿÿÿÿ8Í–Ó¯õ1
+C
+java:S1452k"&Remove usage of generic wildcard type.(Îôß¸8ÏšË°õ1
+H
+java:S1452"&Remove usage of generic wildcard type.(Š»Ó†úÿÿÿÿ8 ¤¬±õ1
